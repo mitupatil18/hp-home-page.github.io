@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    backface-visibility: 50%;
+    background-color: #0b0b0b;
+}
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    
+}
+.logo:hover{
+    transform: translateY(10px);
+}
+nav ul li{
+    display: inline-block;
+    border-color: aqua;
+    margin: 0px 50px;
+    position: relative;
+}
+.item{
+    text-align: right end;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+   top: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: rgb(4, 92, 168);
+    border-radius: 10px;
+    border: 4px;
+    border-style: none solid solid none ;
+}
+.item:hover{
+    color: white;
+}
+.pre{
+   margin-top: 200px;
+   padding-left: 15px;
+   color: black;
+   font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.post{
+    font-size: 90px;
+}
